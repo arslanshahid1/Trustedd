@@ -216,6 +216,7 @@ button.navbar-toggler:focus {
 .join .right {
     background: #3D69DB;
     color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
 
 .join .right p {
@@ -247,4 +248,76 @@ button.navbar-toggler:focus {
     text-align: left;
     font-weight: 500;
     height: 50px;
+}
+
+
+/* =============================== Team ========================================= */
+
+.team {
+    position: relative;
+}
+
+.team1,
+.team2,
+.team3 {
+    background-color: #292929;
+    background-position: top;
+    background-repeat: repeat-x;
+    color: white;
+}
+
+.team1 {
+    background-image: url('images/team1-bg.png');
+}
+
+.team2 {
+    background-image: url('images/team2-bg.png');
+}
+
+.team3 {
+    background-image: url('images/team3-bg.png');
+}
+
+.team img.dp {
+    padding-top: 70px;
+}
+
+.team h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.team h3 {
+    font-size: 18px;
+}
+
+.team p {
+    font-size: 14px;
+}
+
+.team .socials a {
+    background-color: #323238;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.team .socials img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+    color: black !important;
+    background-color: rgb(224, 224, 224);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
