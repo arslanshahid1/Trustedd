@@ -321,3 +321,167 @@ button.navbar-toggler:focus {
     justify-content: center;
     align-items: center;
 }
+
+
+/* ================================ Our benefits ============================== */
+
+.our-benefits {
+    background-color: #3C3D3D;
+    position: relative;
+    color: #ffffff;
+}
+
+.our-benefits .bg {
+    background-color: #629A6B;
+    width: 450px;
+    height: 450px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(200px);
+    border-radius: 10px;
+}
+
+.our-benefits .free {
+    background-color: #292929;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.our-benefits .amount {
+    background-color: #292929;
+    border-radius: 10px;
+}
+
+.our-benefits .amount h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.our-benefits .amount h3 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.our-benefits .early-access {
+    background-color: #292929;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.our-benefits .special-allocation {
+    background-color: #292929;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.our-benefits .special-allocation p {
+    background: -webkit-linear-gradient(360deg, #72F8B5 0.38%, #3C6ADB 94.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.our-benefits .presale {
+    background-color: #292929;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.our-benefits .presale h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.our-benefits .presale h2 {
+    font-weight: 300;
+    color: #72F8B5;
+}
+
+.our-benefits .benefits {
+    background-color: #292929;
+    border-radius: 10px;
+    font-size: 24px;
+    height: 300px;
+}
+
+.our-benefits .benefits h2 {
+    font-weight: 700;
+}
+
+.our-benefits .placement {
+    background-color: #292929;
+    border-radius: 10px;
+    font-size: 24px;
+    height: 270px;
+}
+
+@media screen and (max-width:992px) {
+    .our-benefits .placement {
+        height: auto;
+    }
+}
+
+.our-benefits .founding {
+    background-color: #292929;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.our-benefits .tba {
+    background-color: #292929;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.our-benefits .tba p {
+    text-transform: uppercase;
+}
+
+.our-benefits .token {
+    background-color: #292929;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.our-benefits .token p {
+    background: -webkit-linear-gradient(360deg, #72F8B5 0.38%, #3C6ADB 94.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+.our-benefits .elite,
+.our-benefits .more {
+    background-color: #292929;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+
+/* ======================== Roadmap ====================== */
+
+.roadmap {
+    background: linear-gradient(135deg, #4B53DC 0%, #2F80D9 100%);
+    position: relative;
+    color: #ffffff;
+}
+
+.roadmap .bg {
+    position: absolute;
+    left: 0;
+    top: 150px;
+}
+
+.roadmap .heading {
+    background: #ffffff17;
+    border-radius: 10px;
+}
+
+.roadmap .heading h2 {
+    font-weight: 700;
+}
