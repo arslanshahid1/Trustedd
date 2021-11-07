@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -469,6 +470,7 @@ button.navbar-toggler:focus {
     background: linear-gradient(135deg, #4B53DC 0%, #2F80D9 100%);
     position: relative;
     color: #ffffff;
+    padding-bottom: 100px;
 }
 
 .roadmap .bg {
@@ -484,4 +486,102 @@ button.navbar-toggler:focus {
 
 .roadmap .heading h2 {
     font-weight: 700;
+}
+
+.mobile-rm h4 {
+    font-weight: 700;
+}
+
+.large-rm {
+    position: relative;
+}
+
+.large-rm img {
+    padding-top: 80px;
+}
+
+.large-rm .launch {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate( -50%);
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.large-rm .one {
+    position: absolute;
+    top: 15%;
+    right: 0px;
+    width: 30%;
+    font-size: 0.9rem;
+}
+
+.large-rm .ten {
+    position: absolute;
+    top: 32%;
+    right: -40px;
+    width: 30%;
+    font-size: 0.9rem;
+}
+
+.large-rm .twenty-five {
+    position: absolute;
+    top: 45%;
+    right: -45px;
+    width: 30%;
+    font-size: 0.9rem;
+}
+
+.large-rm .fifty {
+    position: absolute;
+    bottom: -25;
+    left: 50%;
+    transform: translate( -50%);
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.large-rm .seventy-five {
+    position: absolute;
+    top: 45%;
+    left: -50px;
+    width: 30%;
+    font-size: 0.9rem;
+    text-align: right;
+}
+
+.large-rm .hundred {
+    position: absolute;
+    top: 20%;
+    left: 15px;
+    width: 30%;
+    font-size: 0.9rem;
+    text-align: right;
+}
+
+@media screen and (max-width:992px) {
+    .large-rm .one,
+    .large-rm .ten,
+    .large-rm .twenty-five,
+    .large-rm .hundred,
+    .large-rm.seventy-five,
+    .large-rm .launch,
+    .large-rm .fifty {
+        font-size: 0.7rem;
+    }
+    .large-rm .one {
+        top: 17%;
+    }
+    .large-rm .ten {
+        top: 37%;
+    }
+    .large-rm .twenty-five {
+        top: 50%;
+        right: -40px;
+    }
+    .large-rm .hundred {
+        top: 20%;
+        left: 5px;
+    }
 }
