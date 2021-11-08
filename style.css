@@ -492,6 +492,15 @@ button.navbar-toggler:focus {
     font-weight: 700;
 }
 
+.mobile-rm .btn {
+    background-color: #10C793;
+    font-weight: 700;
+}
+
+.mobile-rm .btn:hover {
+    background-color: #0fa379;
+}
+
 .large-rm {
     position: relative;
 }
@@ -584,4 +593,57 @@ button.navbar-toggler:focus {
         top: 20%;
         left: 5px;
     }
+}
+
+
+/* ==================================== Trustedd Platform ======================== */
+
+.platform {
+    background-color: #292929;
+    color: white;
+}
+
+.platform h2 {
+    font-weight: 700;
+}
+
+.platform .left p {
+    font-weight: 300;
+}
+
+.platform .left h4 {
+    font-weight: 700;
+}
+
+.platform .left .btn {
+    background-color: white;
+    color: #10C793;
+    font-weight: 500;
+}
+
+.platform .left .btn:hover {
+    background-color: #72F8B5;
+    color: #ffffff;
+}
+
+.testimonials .user {
+    background-color: #424242;
+    border-radius: 10px;
+}
+
+.testimonials .user .right p {
+    color: #6A6A6A;
+    font-weight: 500;
+}
+
+.testimonials .para .colon {
+    padding-top: 0;
+    margin-top: -40px !important;
+    margin-bottom: 0 !important;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.testimonials .review {
+    margin-top: -30px;
 }
