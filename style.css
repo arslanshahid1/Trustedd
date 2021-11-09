@@ -647,3 +647,39 @@ button.navbar-toggler:focus {
 .testimonials .review {
     margin-top: -30px;
 }
+
+
+/* ======================================== Articles ================================ */
+
+.articles h2 {
+    font-weight: 700;
+}
+
+.articles .card {
+    border: 1px solid #EAEDF3;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.articles .card h5 {
+    font-weight: 700;
+}
+
+.articles .card .date {
+    color: #8A8F9C;
+    font-weight: 300;
+}
+
+.articles .card .time {
+    color: #8A8F9C;
+}
+
+.articles .card-img-top {
+    border-bottom: 1px solid #EAEDF3;
+    object-fit: contain;
+    height: 200px;
+}
+
+.articles .img1 {
+    object-fit: cover;
+}
