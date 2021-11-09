@@ -683,3 +683,108 @@ button.navbar-toggler:focus {
 .articles .img1 {
     object-fit: cover;
 }
+
+
+/* ==================================== FAQs ============================================= */
+
+.faq h2 {
+    font-weight: 700;
+}
+
+.faq-lg .answers {
+    background-color: #FAFBFF;
+    height: 400px;
+}
+
+.faq-lg .questions {
+    border: 1px solid #EAEDF3;
+}
+
+.faq-lg .q {
+    border-bottom: 1px solid #EAEDF3;
+    cursor: pointer;
+}
+
+.faq-lg .fa {
+    transition: all 0.3s ease-in-out;
+}
+
+.faq-lg .q:hover .fa {
+    transform: translateX(10px);
+    transition: transform 0.3s ease-in-out;
+    color: rgb(33, 71, 173);
+}
+
+.arrow-transition {
+    transform: translateX(10px);
+    transition: transform 0.3s ease-in-out;
+    color: rgb(33, 71, 173);
+}
+
+.faq-lg .circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #3478DA;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    display: none;
+}
+
+.activeCircle .circle {
+    display: block;
+}
+
+#faq1,
+#faq2,
+#faq3,
+#faq4,
+#faq5 {
+    display: none;
+}
+
+.accordion .fa {
+    color: #444444;
+    cursor: pointer;
+}
+
+.accordion .card-header {
+    background: none;
+    border: none;
+}
+
+.accordion .card-header .btn {
+    font-size: 1rem;
+    white-space: normal;
+    text-align: left;
+}
+
+.accordion .card-body {
+    background-color: #FAFBFF;
+}
+
+.accordion .card {
+    border: none;
+    border: 1px solid rgba(190, 190, 190, 0.137);
+    border-radius: 0px;
+}
+
+.accordion button {
+    color: rgb(97, 97, 97);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bg-blue {
+    background-color: #FAFBFF !important;
+}
+
+.bg-white {
+    background: none;
+}
