@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -787,4 +789,59 @@ button.navbar-toggler:focus {
 
 .bg-white {
     background: none;
+}
+
+
+/* ============================= footer ============================ */
+
+footer {
+    background-color: #292929;
+    margin-bottom: 0;
+}
+
+footer .row1 a {
+    color: white;
+    margin-left: 20px;
+}
+
+footer .row2 .item {
+    background-color: #454545;
+    border-radius: 8px;
+    padding: 10px;
+    min-width: 100px;
+}
+
+footer .row2 .item img {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+footer .row2 .item a {
+    color: white;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+footer .subscribe .btn {
+    background-color: #10C793;
+    color: white;
+    font-weight: 500;
+}
+
+footer .subscribe p {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer .copyrights {
+    color: #A2A2A2;
+}
+
+footer .copyrights a {
+    color: white;
+}
+
+.grey {
+    border-color: gray;
 }
